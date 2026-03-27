@@ -46,10 +46,10 @@ def inject_fraud_patterns(users_df, orders_df, returns_df):
     users_df.loc[fraud_mask, "account_age_days"] = np.random.randint(10, 120)
 
     # Increase devices
-    users_df.loc[fraud_mask, "num_devices_used"] = np.random.randint(2, 5)
+    users_df.loc[fraud_mask, "num_devices_used"] = np.random.randint(2, 5) 
 
     # --- 4. Add noise: some normal users also behave suspicious ---
-    noisy_users = users_df[users_df["user_id"].isin(normal_users)].sample(frac=0.05)
+    noisy_users = users_df[users_df["user_id"].isin(normal_users)].sample(frac=0.05) 
 
     orders_df.loc[orders_df["user_id"].isin(noisy_users["user_id"]), "order_value"] *= np.random.uniform(1.1, 1.5)
 
