@@ -1,0 +1,162 @@
+{
+  "risk_dist": {
+    "Low": 1533,
+    "High": 244,
+    "Medium": 223
+  },
+  "top_flagged": [
+    {
+      "user_id": "USR00620",
+      "city": "Bangalore",
+      "fraud_score": 93,
+      "return_rate": 100.0,
+      "total_orders": 1,
+      "total_refund_amt": 8476,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Refund ratio: 83% of spend | Return rate: 100%"
+    },
+    {
+      "user_id": "USR00683",
+      "city": "Pune",
+      "fraud_score": 92,
+      "return_rate": 58.3,
+      "total_orders": 12,
+      "total_refund_amt": 50242,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Refund ratio: 52% of spend | Return rate: 58%"
+    },
+    {
+      "user_id": "USR01903",
+      "city": "Mumbai",
+      "fraud_score": 91,
+      "return_rate": 100.0,
+      "total_orders": 1,
+      "total_refund_amt": 8337,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Refund ratio: 83% of spend | Return rate: 100%"
+    },
+    {
+      "user_id": "USR01785",
+      "city": "Bangalore",
+      "fraud_score": 91,
+      "return_rate": 100.0,
+      "total_orders": 1,
+      "total_refund_amt": 8742,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Refund ratio: 83% of spend | Return rate: 100%"
+    },
+    {
+      "user_id": "USR01394",
+      "city": "Pune",
+      "fraud_score": 88,
+      "return_rate": 54.5,
+      "total_orders": 11,
+      "total_refund_amt": 47396,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Refund ratio: 52% of spend | Return rate: 55%"
+    },
+    {
+      "user_id": "USR00918",
+      "city": "Pune",
+      "fraud_score": 87,
+      "return_rate": 46.2,
+      "total_orders": 13,
+      "total_refund_amt": 38494,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Return rate: 46% | HV refunds: 6 refunds"
+    },
+    {
+      "user_id": "USR00546",
+      "city": "Mumbai",
+      "fraud_score": 86,
+      "return_rate": 41.7,
+      "total_orders": 12,
+      "total_refund_amt": 36721,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Refund ratio: 48% of spend | Return rate: 42%"
+    },
+    {
+      "user_id": "USR01722",
+      "city": "Delhi",
+      "fraud_score": 85,
+      "return_rate": 7.1,
+      "total_orders": 14,
+      "total_refund_amt": 1180,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices"
+    },
+    {
+      "user_id": "USR01586",
+      "city": "Mumbai",
+      "fraud_score": 85,
+      "return_rate": 50.0,
+      "total_orders": 14,
+      "total_refund_amt": 41310,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Refund ratio: 47% of spend | Return rate: 50%"
+    },
+    {
+      "user_id": "USR01362",
+      "city": "Mumbai",
+      "fraud_score": 84,
+      "return_rate": 0.0,
+      "total_orders": 11,
+      "total_refund_amt": 0,
+      "risk_level": "High",
+      "flagged_reasons": "Multi-device: 3+ devices | Avg days to return: 0.0 days avg | Quick returns: within 2 days"
+    }
+  ],
+  "category_return_rates": {
+    "Books": 0.28,
+    "Home": 0.266,
+    "Electronics": 0.263,
+    "Fashion": 0.255
+  },
+  "monthly_orders": {
+    "High": {
+      "2025-10": 387,
+      "2025-11": 352,
+      "2025-12": 406,
+      "2026-01": 428,
+      "2026-02": 297,
+      "2026-03": 344
+    },
+    "Low": {
+      "2025-10": 1985,
+      "2025-11": 1974,
+      "2025-12": 1967,
+      "2026-01": 1993,
+      "2026-02": 1767,
+      "2026-03": 1648
+    },
+    "Medium": {
+      "2025-10": 202,
+      "2025-11": 208,
+      "2025-12": 219,
+      "2026-01": 251,
+      "2026-02": 187,
+      "2026-03": 188
+    }
+  },
+  "summary": {
+    "total_users": 2000,
+    "total_orders": 14956,
+    "total_returns": 3991,
+    "overall_return_rate": 0.267,
+    "high_risk_count": 244,
+    "medium_risk_count": 223,
+    "low_risk_count": 1533,
+    "total_refund_exposure": 2952363.77,
+    "avg_fraud_score_high": 75.7,
+    "feature_importances": {
+      "orders_per_day": 0.339,
+      "max_order_value": 0.2571,
+      "multi_device_flag": 0.1673,
+      "avg_order_value": 0.0496,
+      "total_spend": 0.0425,
+      "total_orders": 0.0248,
+      "new_account_flag": 0.0181,
+      "refund_to_spend_ratio": 0.0177
+    }
+  }
+}
